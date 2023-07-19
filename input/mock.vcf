@@ -1,0 +1,26 @@
+##fileformat=VCFv4.3										
+##fileDate=2023-07-06										
+##source=MockVariantCaller	v1.0									
+##INFO=<ID=DP Number=1 Type=Integer Description="Total Depth">
+##INFO=<ID=AF Number=A Type=Float Description="Allele Frequency">
+##FORMAT=<ID=GT Number=1 Type=String Description="Genotype">
+##FORMAT=<ID=GQ Number=1 Type=Integer Description="Genotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE1	SAMPLE2
+chr1	12345	.	A	G	.	PASS	DP=50;AF=0.25	GT:GQ	0/1:30	1/1:30
+chr1	23456	.	C	T	.	PASS	DP=45;AF=0.10	GT:GQ	0/0:40	0/0:40
+chr2	34567	.	G	T	.	LowQual	DP=60;AF=0.80	GT:GQ	1/1:50	1/1:50
+chr2	45678	.	T	A	.	PASS	DP=55;AF=0.50	GT:GQ	1/0:45	1/0:45
+chr3	56789	.	C	G	.	PASS	DP=40;AF=0.15	GT:GQ	0/1:35	0/1:35
+chr3	67890	.	G	A	.	PASS	DP=30;AF=0.05	GT:GQ	0/0:50	0/0:50
+chr4	78901	.	A	C	.	PASS	DP=5;AF=0.70	GT:GQ	1/1:40	1/1:40
+chr4	89012	.	T	G	.	PASS	DP=50;AF=0.20	GT:GQ	1/0:30	1/0:30
+chr5	90123	.	C	T	.	PASS	DP=35;AF=0.40	GT:GQ	0/1:45	1/1:45
+chr5	91234	.	G	A	.	PASS	DP=50;AF=0.60	GT:GQ	1/1:50	1/1:50
+chr6	12345	.	A	G	.	PASS	DP=40;AF=0.20	GT:GQ	0/1:35	0/1:35
+chr6	23456	.	C	T	.	PASS	DP=55;AF=0.30	GT:GQ	0/0:40	0/0:40
+chr7	34567	.	G	T	.	PASS	DP=50;AF=0.10	GT:GQ	1/1:45	1/1:45
+chr7	45678	.	T	A	.	PASS	DP=65;AF=0.80	GT:GQ	1/0:50	1/0:50
+chr8	56789	.	C	G	.	PASS	DP=45;AF=0.50	GT:GQ	0/1:30	0/1:30
+chr8	67890	.	G	A	.	PASS	DP=6;AF=0.15	GT:GQ	0/0:35	0/0:35
+chr9	78901	.	A	C	.	LowQual	DP=55;AF=0.05	GT:GQ	1/1:40	1/1:40
+chr9	89012	.	T	G	.	LowQual	DP=40;AF=0.70	GT:GQ	1/0:45	1/0:43
